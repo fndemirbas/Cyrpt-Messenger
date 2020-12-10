@@ -11,9 +11,6 @@ import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
-//GROUP 15
-//Zeynep Sema Nur ÝNKAYA - 21827503 
-//Fatma Nur DEMÝRBAÞ - 21727116
 
 
 
@@ -152,12 +149,12 @@ public class Server {
 
 
     }
-    //Inýt Vector Initialization
+    //InÃ½t Vector Initialization
     public static void initVect() {
         initVecAES=createInitializationVector(16);
         initVecDES=createInitializationVector(8);
     }
-    //Generation Inýt Vector 
+    //Generation InÃ½t Vector 
     public static byte[] createInitializationVector(int size)
     {
         byte[] initializationVector = new byte[size];
